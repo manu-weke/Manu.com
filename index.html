@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <body>
+ <head>
+ <style>
+ body{
+     overflow:hidden;
+     background:linear-gradient(
+     to right, 
+     green 0%,
+     green 30%, 
+     white 30%, 
+     white 70%, 
+     green 70%, 
+     green 100%);
+ }
+ main{
+     width:1280px;
+     margin:auto;
+ }
+ header{
+     width:100%;
+     min-height:70px;
+     border:solid 1px black;
+     box-shadow:5px 5px 5px black;
+ }
+ #Safaricom, #M-pesa{
+     height:720px;
+     width:100%;
+     box-shadow:7px 5px 5px black;
+     
+ }
+ a{
+     text-decoration:none;
+ }
+ ol{
+     display:none;
+ }
+ #Safaricom:hover ol{
+     display:block;
+ }
+ ul{
+     display:none;
+ }
+ #M-pesa:hover ul{
+     display:block;
+ }
+ h2{
+     background-color:green;
+ }
+ 
+ </style>
+ </head>
+<main>
+ <div class="weke">
+ <h2><pre>SAFARICOM</pre></h2>
+  <div class="manu">
+  <header>
+  <nav>
+  <a href="#Safaricom"><pre>Safaricom +</pre></a>
+  <a href="#M-pesa"><pre>M-pesa</pre></a>
+  </nav>
+  </header>
+  </div>
+ </div>
+ <section id="Safaricom">
+   <h2><pre>Safaricom</pre></h2>
+    <ol>
+  <li><pre>My Account</pre></li>
+  <li><pre>M-banking</pre></li>
+  <li><pre>BankServices</pre></li>
+    <ol>
+ </section>
+ 
+  <section id="M-pesa">
+   <h2><pre>M-pesa</pre></h2>
+   <ul>
+   <li><pre>SendMoney</pre></li>
+   <li><pre>Lipa NaMpesa</pre></li>
+   <li><pre>My account</pre></li>
+   <li><pre>Check balance</pre></li>
+   </ol>
+ </section>
+</main> 
+ </body>
+</html>
